@@ -1,14 +1,15 @@
 %define		packname	org.At.tair.db
 
+%undefine	_debugsource_packages
 Summary:	Genome wide annotation for Arabidopsis
 Name:		R-%{packname}
-Version:	2.10.1
-Release:	2
+Version:	3.22.0
+Release:	1
 License:	Artistic 2.0
 Group:		Applications/Engineering
-Source0:	http://www.bioconductor.org/packages/release/data/annotation/src/contrib/%{packname}_%{version}.tar.gz
-# Source0-md5:	168fc0839c2e8fcf7f27f092b089715a
-URL:		http://www.bioconductor.org/packages/release/data/annotation/html/org.At.tair.db.html
+Source0:	https://bioconductor.org/packages/release/data/annotation/src/contrib/%{packname}_%{version}.tar.gz
+# Source0-md5:	c3d1a557db8b2af60d8c536a269b86f0
+URL:		https://bioconductor.org/packages/release/data/annotation/html/org.At.tair.db.html
 BuildRequires:	R-AnnotationDbi
 BuildRequires:	R
 BuildRequires:	texlive-latex
